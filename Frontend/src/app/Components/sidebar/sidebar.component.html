@@ -1,0 +1,11 @@
+<div style="position:fixed; left:0px; top: 80px; bottom: 20px;" class="sidenav">
+    <div class="list-items">
+        <a [routerLink]="['/rest-1',r1]" routerLinkActive="selected" class="list-item">Ajad Hind Dhaba</a>
+        <a [routerLink]="['/rest-2',r2]" routerLinkActive="selected" class="list-item">Hakuna Matata</a>
+        <a [routerLink]="['/rest-3',r3]" routerLinkActive="selected" class="list-item">Royal Kolkata</a>
+        <a [routerLink]="['/rest-4',r4]" routerLinkActive="selected" class="list-item">kabab Island</a>
+    </div>
+</div>
+<div class="main">
+    <router-outlet></router-outlet>
+</div>

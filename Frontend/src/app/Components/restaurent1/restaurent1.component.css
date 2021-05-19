@@ -1,0 +1,12 @@
+.container {
+    width: 30%;
+    display: inline-block;
+    margin-left: 2%;
+    height: 53vh;
+}
+
+.cart-button {
+    padding: 3%;
+    background-color: aqua;
+    border: black
+}

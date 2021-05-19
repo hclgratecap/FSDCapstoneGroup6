@@ -1,0 +1,53 @@
+<div class="container">
+    <h2>Registration Form</h2>
+    <form #Registerform="ngForm" (ngSubmit)="registerUser()">
+
+
+        <!--- <small  [class.text-danger]="msg.status==500">{{msg.message}}</small> -->
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" placeholder="Enter email" name="email" [(ngModel)]="user.email" required pattern="\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" #email="ngModel" [class.is-invalid]="email.invalid && email.touched">
+            <div *ngIf="email.errors && ( email.invalid && email.touched)">
+                <small class="text-danger" *ngIf="email.errors.required">Email Id is required field</small>
+                <small class="text-danger" *ngIf="email.errors.pattern">Enter the proper value of email</small>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label for="first_name">FirstName:</label>
+            <input type="text" class="form-control" placeholder="Enter Firstname" name="firstName" [(ngModel)]="user.firstName" required #first_name="ngModel" [class.is-invalid]="first_name.invalid && first_name.touched">
+            <small class="text-danger" [class.d-none]="first_name.valid || first_name.untouched">Firstname is required
+        field</small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="last_name">LastName:</label>
+            <input type="text" class="form-control" placeholder="Enter LastName" name="lastName" [(ngModel)]="user.lastName" required #last_name="ngModel" [class.is-invalid]="last_name.invalid && last_name.touched">
+            <small class="text-danger" [class.d-none]="last_name.valid || last_name.untouched">Lastname is required
+        field</small>
+        </div>
+
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" placeholder="Enter password" name="password" [(ngModel)]="user.password" required #password="ngModel" [class.is-invalid]="password.invalid && password.touched">
+            <small class="text-danger" [class.d-none]="password.valid || password.untouched">password is required
+        field</small>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" name="remember"> Remember me</label>&emsp;
+            <button [disabled]="Registerform.form.invalid" type="submit" class="btn btn-info" style="margin-left: 3%;">Register</button>&emsp;
+
+            <!-- <a routerLink="" style="margin-left: 10%;">Go to Home</a> -->
+            <p>
+                <br>
+            </p>
+        </div>
+
+
+    </form>
+
+
+
+</div>

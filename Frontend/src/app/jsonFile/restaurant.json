@@ -1,0 +1,99 @@
+[{
+        "id": 1,
+        "url": "assets/choleChawal.png",
+        "price": 70,
+        "rname": "r1",
+        "dishname": "choleChawal"
+    },
+    {
+        "id": 2,
+        "url": "assets/dalFry.png",
+        "price": 50,
+        "rname": "r1",
+        "dishname": "dalFry"
+    },
+    {
+        "id": 3,
+        "url": "assets/gajarHalwa.png",
+        "price": 90,
+        "rname": "r1",
+        "dishname": "gajarHalwa"
+    },
+    {
+        "id": 4,
+        "url": "assets/roti.png",
+        "price": 10,
+        "rname": "r2",
+        "dishname": "roti"
+    },
+    {
+        "id": 5,
+        "url": "assets/rajmaChawal.png",
+        "price": 55,
+        "rname": "r2",
+        "dishname": "rajmaChawal"
+    },
+    {
+        "id": 6,
+        "url": "assets/gulabJamun.png",
+        "price": 20,
+        "rname": "r2",
+        "dishname": "gulabJamun"
+    },
+    {
+        "id": 7,
+        "url": "assets/masalaDosa.png",
+        "price": 70,
+        "rname": "r3",
+        "dishname": "masalaDosa"
+    },
+    {
+        "id": 8,
+        "url": "assets/choleChawal.png",
+        "price": 70,
+        "rname": "r3",
+        "dishname": "choleChawal"
+    },
+    {
+        "id": 9,
+        "url": "assets/dalFry.png",
+        "price": 50,
+        "rname": "r3",
+        "dishname": "dalFry"
+    },
+    {
+        "id": 10,
+        "url": "assets/gulabJamun.png",
+        "price": 20,
+        "rname": "r4",
+        "dishname": "gulabJamun"
+    },
+    {
+        "id": 11,
+        "url": "assets/idlySambar.png",
+        "price": 40,
+        "rname": "r4",
+        "dishname": "idlySambar"
+    },
+    {
+        "id": 12,
+        "url": "assets/uttapam.png",
+        "price": 80,
+        "rname": "r4",
+        "dishname": "uttapam"
+    },
+    {
+        "id": 13,
+        "url": "assets/masalaDosa.png",
+        "price": 110,
+        "rname": "r4",
+        "dishname": "masalaDosa"
+    },
+    {
+        "id": 14,
+        "url": "assets/matarPaneer.png",
+        "price": 150,
+        "rname": "r1",
+        "dishname": "matarPaneer"
+    }
+]
